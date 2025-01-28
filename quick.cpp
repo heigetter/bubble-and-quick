@@ -7,8 +7,6 @@ int particao(int* prioridade, int* tempo, std::string* nome, int min, int max)
     int pivo1 = prioridade[max];
     int pivo2 = tempo[max];
     int i = min - 1;
-    int i2;
-    i2 = max;
     
     for(int j = min; j <= max - 1; j++)
     {
